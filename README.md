@@ -9,7 +9,7 @@ There are two API's created
 1. Post -> /transaction
 This will return the TransactionCustomerId, which is the generated Id at the server for input request containing the customer details
 
-2. Get -> /transaction/<TransactionCustomerId>/tickets
+2. Get -> /transaction/{TransactionCustomerId}/tickets
 This will return the Tickets corresponding to the customers details posted. The TransactionCustomerId in the path is the id returned in the post call
 ---------------------------------------------------------------------------
 
