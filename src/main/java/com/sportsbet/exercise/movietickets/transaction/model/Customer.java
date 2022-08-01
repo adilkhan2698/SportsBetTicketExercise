@@ -18,7 +18,7 @@ public class Customer {
     @NotBlank
     private String name;
 
-    @Min(0) @Max(150) @NotNull
+    @Min(0) @Max(149) @NotNull
     private Integer age;
 
     public Customer(String name, Integer age) {
