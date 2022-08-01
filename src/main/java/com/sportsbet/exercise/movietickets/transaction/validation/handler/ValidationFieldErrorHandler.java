@@ -1,4 +1,4 @@
-package com.sportsbet.exercise.movietickets.transaction.validation.controller;
+package com.sportsbet.exercise.movietickets.transaction.validation.handler;
 
 import com.sportsbet.exercise.movietickets.transaction.validation.response.FieldValidationViolation;
 import org.springframework.http.HttpStatus;
